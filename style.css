@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 1440px;
+
+}
+nav h1{
+    color: rgba(0, 135, 234, 1);
+    font-weight: 700;
+    font-size: 28px;
+
+
+
+}
+nav h2{
+    color: rgba(20, 20, 21, 1);
+    font-weight: 500;
+    font-size: 18px;
+    
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 33px;
+    height: 98px;
+    gap: 180px;
+
+}
+nav .right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color:  rgba(20, 20, 21, 0.8);
+    font-size: 18px;
+    font-weight: 500    ;
+}
+main{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    width: 1440px;
+    height: 798px;
+}
+section h1{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 64px;
+
+
+}
+section{
+    margin-left: 165px;
+    margin-top: 202px;
+
+}
+main img{
+    width: 705px;
+    height: 798px;
+
+}
+section p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.btn button:nth-child(1){
+    width: 124px;
+    height: 56px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    background: rgba(0, 135, 234, 1);
+
+}
+.btn button:nth-child(2){
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.04);
+
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: rgba(0, 135, 234, 1);
+
+
+
+}
+.sec1 h2{
+    color: rgba(0, 135, 234, 1);
+    font-size: 28px;
+    font-weight: 500;
+}
+.sec1 h1{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.sec1 p{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 24px;
+}
+.cards{
+    width: 350px;
+    height: 380px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%,url(./Dark.png));
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 165px;
+
+
+
+}
+.sec1{
+    padding: 120px;
+    background: rgba(247, 248, 250, 1);
+
+
+}
+.section{
+    background: url('./stollar.png') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 400px 500px;
+    position: relative;
+}
+.left{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.left img{
+    width: 100px;
+    height: 100px;
+}
+.right1{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.right1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background: white;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.right1 .sen{
+    color: rgba(0, 135, 234, 1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.span1{
+    color: grey;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #00000091;
+}
+
+.right1 button{
+    padding: 10px 150px;
+    background: rgba(0, 135, 234, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background: white;
+    gap: 125px;
+    margin-left: 165px;
+    position: relative;
+}
+.rat2 h4{
+    color: #0087EA;
+    font-size: 18px;
+}
+.rat2 h2{
+    font-size: 18px;
+}
+.rat2 button{
+    width: 160px;
+    height: 44px;
+    background: #0087EA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.rat img:nth-child(2){
+    top: 365px;
+    left: 355px;
+    border-radius: 8px;
+    width: 255px;
+    height: 255px;
+    z-index: 2  ;
+    position: absolute;
+}
